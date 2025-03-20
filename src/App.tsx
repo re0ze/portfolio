@@ -71,7 +71,7 @@ function ServiceCard({ icon: Icon, title }: { icon: any; title: string }) {
 function App() {
   return (
     <div className="min-h-screen bg-gray-50 text-right" dir="rtl">
-      {/* Hero Section */}
+   
       <Section className="bg-[#770c25] text-white py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
@@ -110,14 +110,14 @@ function App() {
         </div>
       </Section>
 
-      {/* About Section */}
+    
       <Section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center" style={{ color: '#120101' }}>نبذة عني</h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-burgundy-100">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                أنا رئام زياد الشديفات، مطورة برمجيات وخبيرة في أمن المعلومات من الأردن. حاصلة على شهادة البكالوريوس في تخصص أمن شبكات ومعلومات من جامعة البلقاء - كلية الحصن.
+                أنا رئام زياد الشديفات، مطورة برمجيات وخبيرة في أمن المعلومات من الأردن. في الفصل الاخير من تخصص أمن شبكات ومعلومات من جامعة البلقاء - كلية الحصن.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                 <div className="bg-burgundy-50 p-6 rounded-xl">
@@ -160,7 +160,7 @@ function App() {
         </div>
       </Section>
 
-      {/* Projects Section */}
+     
       <Section className="py-20 bg-gradient-to-b from-burgundy-50 to-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">المشاريع المتميزة</h2>
@@ -180,7 +180,7 @@ function App() {
               title="تصميم Dashboard تفاعلي"
               description="واجهة مستخدم ديناميكية تعرض بيانات تحليلية مع رسوم بيانية تفاعلية"
             />
-            {/* New Projects */}
+          
             <ProjectCard
               icon={Globe}
               title="موقع شخصي بسيط"
@@ -205,7 +205,7 @@ function App() {
         </div>
       </Section>
 
-      {/* Practical Projects Section */}
+      
       <Section className="py-20 bg-gradient-to-b from-white to-burgundy-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">قسم المشاريع العملية</h2>
@@ -229,7 +229,7 @@ function App() {
         </div>
       </Section>
 
-      {/* Skills Section */}
+      
       <Section className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">المهارات التقنية</h2>
@@ -258,7 +258,7 @@ function App() {
         </div>
       </Section>
 
-      {/* Services Section */}
+      
       <Section className="py-20 bg-gradient-to-b from-white to-burgundy-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">الخدمات التي أقدمها</h2>
@@ -287,7 +287,7 @@ function App() {
         </div>
       </Section>
 
-      {/* Certificates Section */}
+      
       <Section className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">الشهادات والدورات التدريبية</h2>
@@ -312,7 +312,7 @@ function App() {
         </div>
       </Section>
 
-      {/* Footer */}
+     
       <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <p>جميع الحقوق محفوظة © {new Date().getFullYear()} رئام الشديفات</p>
