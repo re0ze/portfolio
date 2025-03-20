@@ -17,5 +17,5 @@ body {
 }
 
 .card {
-  perspective: 1000px; /* Added perspective for 3D effects */
+  perspective: 1000px;
 }
